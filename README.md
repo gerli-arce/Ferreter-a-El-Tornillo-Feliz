@@ -100,5 +100,4 @@ BotonImprimir = Button(ventana, text = 'Imprimir', bg = 'green2', fg = 'white', 
 <pre>
 ventana.mainloop()
 </pre>
-
-
+<h3>Ojo: Con esto solo tendremos la interfaz <b>grafica</b> si se desea hacer que cumpla funciones se deberá introducir mas código </h3> 
