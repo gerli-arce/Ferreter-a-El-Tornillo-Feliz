@@ -94,7 +94,7 @@ BotonImprimir = Button(ventana, text = 'Imprimir', bg = 'green2', fg = 'white', 
 
 # Se muetra la pantalla 
 
-<p>por ultimo asemos el llamado a la ventana con la funcion <b>mainloop</b></p>
+<p>por ultimo ordenamos que se mantenga y no sierre la ventana con la funcion <b>" mainloop "</b></p>
 <pre>
 ventana.mainloop()
 </pre>
