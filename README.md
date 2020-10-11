@@ -91,7 +91,9 @@ TextoPrecio = Label(ventana, text = 'Total', bg = 'gray90', fg = 'gray9',   font
 BotonGuardar = Button(ventana, text = 'Guardar',bg = 'green2', fg = 'white', font= '"Verdana" 12', border = '0', activebackground="green yellow",borderwidth = 15).place(x = 180, y = 460, width = 250, height = 50)
 BotonImprimir = Button(ventana, text = 'Imprimir', bg = 'green2', fg = 'white', font = '"Verdana" 12', border = '0',activebackground="green yellow", borderwidth = 15).place(x = 450 , y = 460, width = 250, height = 50)
 </pre>
+
 # Se muetra la pantalla 
+
 <p>por ultimo asemos el llamado a la ventana con la funcion <b>mainloop</b></p>
 ventana.mainloop()
 
