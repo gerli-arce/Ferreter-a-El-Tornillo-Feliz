@@ -1,25 +1,31 @@
 # Ferreteria-El-Tornillo-Feliz
-<p>Solución del Trabajo del Curso (Algoritmia para la programación del Software)</p>
-
+Solución del Trabajo del Curso (Algoritmia para la programación del Software)
+#Importamos la libreria Tkinter
+<pre>
 from tkinter import *
-
-#creamos la ventana
-
+</pre>
+#Creamos la ventana
+<p>Crearemos la bentana y le asignaremos un tamaño especifico </p>
+<pre>
 ventana = Tk()
 ventana.geometry('720x680')
 ventana.resizable(width = False, height = False )
 ventana.configure(bg = 'gray90')
+</pre>
 
 # título
-
+<p>Una vez asignada los tamaños le pondremso un titulo</p>
+<pre>
 ventana.title("Ferretería El Tornillo Feliz")
-
+</pre>
 # Creamos el Título
-
+<p>Asignamos un título al contenido de la ventana</p>
+<pre>
 TextoTitulo = Label(ventana, text = ' Ferretería El Tornillo Feliz', bg = 'gray90',fg = 'gray9', font=("Sitka Small", 25, "italic"))
 TextoTitulo.pack(pady=10)
-
+</pre>
 # Creamos los primeros textos con sus respectivas cajas de texto
+<p>Creamos las etiquetas de texto con sus respectivas cajas de texto para el ingreso de datos</p>
 
 TextoDNI = Label(ventana, text = 'DNI: ', bg = 'gray90', fg = 'gray9', font=("Arial", 13)).place(x = 20, y = 60)
 CajaDNI = Entry(ventana, bg = 'white', fg = 'gray9',font = '15',border = '2').place(x = 140, y = 60, width = 200, height = 30)
