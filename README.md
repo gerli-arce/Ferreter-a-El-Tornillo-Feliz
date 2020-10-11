@@ -1,10 +1,10 @@
 # Ferreteria-El-Tornillo-Feliz
 Solución del Trabajo del Curso (Algoritmia para la programación del Software)
-#Importamos la libreria Tkinter
+# Importamos la libreria Tkinter
 <pre>
 from tkinter import *
 </pre>
-#Creamos la ventana
+# Creamos la ventana
 <p>Crearemos la bentana y le asignaremos un tamaño especifico </p>
 <pre>
 ventana = Tk()
