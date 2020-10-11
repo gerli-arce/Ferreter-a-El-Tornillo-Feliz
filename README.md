@@ -86,7 +86,7 @@ CejaCantidad3 = Entry(ventana, bg = 'white', fg = 'gray9', font = '10', border =
 TextoPrecio = Label(ventana, text = 'Total', bg = 'gray90', fg = 'gray9',   font=("Sitka Small", 20)).place(x = 600, y = 400)
 </pre>
 # Botones
-<p>por ultimo crearemos los botones para ejecutar las opciones de <b>Guardar e Imprimir</b> la boleta de ventas</p>
+<p>Por ultimo crearemos los botones para ejecutar las opciones de <b>Guardar e Imprimir</b> la boleta de ventas</p>
 <pre>
 BotonGuardar = Button(ventana, text = 'Guardar',bg = 'green2', fg = 'white', font= '"Verdana" 12', border = '0', activebackground="green yellow",borderwidth = 15).place(x = 180, y = 460, width = 250, height = 50)
 BotonImprimir = Button(ventana, text = 'Imprimir', bg = 'green2', fg = 'white', font = '"Verdana" 12', border = '0',activebackground="green yellow", borderwidth = 15).place(x = 450 , y = 460, width = 250, height = 50)
@@ -94,7 +94,7 @@ BotonImprimir = Button(ventana, text = 'Imprimir', bg = 'green2', fg = 'white', 
 
 # Se muetra la pantalla 
 
-<p>por ultimo ordenamos que se mantenga y no sierre la ventana con la funcion <b>" mainloop "</b></p>
+<p>Por ultimo ordenamos que se mantenga y no sierre la ventana con la funcion <b>" mainloop "</b></p>
 <pre>
 ventana.mainloop()
 </pre>
