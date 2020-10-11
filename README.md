@@ -17,7 +17,7 @@ ventana.resizable(width = False, height = False )
 ventana.configure(bg = 'gray90')
 </pre>
 
-# título
+# Título
 
 <p>Una vez asignada los tamaños le pondremso un titulo</p>
 <pre>
