@@ -1,6 +1,6 @@
-# Ferreter-a-El-Tornillo-Feliz
+# Ferreteria-El-Tornillo-Feliz
+<p>Solución del Trabajo del Curso (Algoritmia para la programación del Software)</p>
 
-Ferretería El Tornillo Feliz
 from tkinter import *
 
 #creamos la ventana
