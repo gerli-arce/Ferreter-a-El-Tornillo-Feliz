@@ -1,17 +1,26 @@
 # Ferreter-a-El-Tornillo-Feliz
+
 Ferretería El Tornillo Feliz
 from tkinter import *
+
 #creamos la ventana
+
 ventana = Tk()
 ventana.geometry('720x680')
 ventana.resizable(width = False, height = False )
 ventana.configure(bg = 'gray90')
+
 # título
+
 ventana.title("Ferretería El Tornillo Feliz")
+
 # Creamos el Título
+
 TextoTitulo = Label(ventana, text = ' Ferretería El Tornillo Feliz', bg = 'gray90',fg = 'gray9', font=("Sitka Small", 25, "italic"))
 TextoTitulo.pack(pady=10)
+
 # Creamos los primeros textos con sus respectivas cajas de texto
+
 TextoDNI = Label(ventana, text = 'DNI: ', bg = 'gray90', fg = 'gray9', font=("Arial", 13)).place(x = 20, y = 60)
 CajaDNI = Entry(ventana, bg = 'white', fg = 'gray9',font = '15',border = '2').place(x = 140, y = 60, width = 200, height = 30)
 
@@ -37,10 +46,13 @@ TextoPrecio = Label(ventana, text = 'Precio',bg = 'gray90',fg = 'gray9', font=("
 TextoSubtotal = Label(ventana, text = 'Subtotal', bg = 'gray90', fg = 'gray9', font=("Arial", 13)).place(x = 450, y = 240)
 
 # Cajas de Cod_Prod
+
 CejaCod_Prod1 = Entry(ventana, bg = 'white', fg = 'gray9', font = '10', border = '2').place(x = 20, y = 280, width = 80, height = 25)
 CejaCod_Prod2 = Entry(ventana, bg = 'white', fg = 'gray9', font = '10', border = '2').place(x = 20, y = 320, width = 80, height = 25)
 CejaCod_Prod3 = Entry(ventana, bg = 'white', fg = 'gray9', font = '10', border = '2').place(x = 20, y = 360, width = 80, height = 25)
+
 # Cajas de Cantridad
+
 CejaCantidad1 = Entry(ventana, bg = 'white', fg = 'gray9', font = '10', border = '2').place(x = 290, y = 280, width = 80, height = 25)
 CejaCantidad2 = Entry(ventana, bg = 'white', fg = 'gray9', font = '10', border = '2').place(x = 290, y = 320, width = 80, height = 25)
 CejaCantidad3 = Entry(ventana, bg = 'white', fg = 'gray9', font = '10', border = '2').place(x = 290, y = 360, width = 80, height = 25)
