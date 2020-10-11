@@ -34,7 +34,7 @@ TextoTitulo.pack(pady=10)
 
 # Creamos los primeros textos con sus respectivas cajas de texto
 
-<p>Creamos las etiquetas de texto con sus respectivas cajas de texto para el ingreso de datos como:<b>Nombre, Apellidos, DNi, Direccíon y teléfono</b></p>
+<p>Creamos las etiquetas de texto con sus respectivas cajas de texto para el ingreso de datos como:<b> Nombre, Apellidos, DNi, Direccíon y teléfono</b></p>
 <pre>
 TextoDNI = Label(ventana, text = 'DNI: ', bg = 'gray90', fg = 'gray9', font=("Arial", 13)).place(x = 20, y = 60)
 CajaDNI = Entry(ventana, bg = 'white', fg = 'gray9',font = '15',border = '2').place(x = 140, y = 60, width = 200, height = 30)
