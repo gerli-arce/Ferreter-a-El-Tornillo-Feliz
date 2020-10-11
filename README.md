@@ -70,7 +70,9 @@ CejaCod_Prod1 = Entry(ventana, bg = 'white', fg = 'gray9', font = '10', border =
 CejaCod_Prod2 = Entry(ventana, bg = 'white', fg = 'gray9', font = '10', border = '2').place(x = 20, y = 320, width = 80, height = 25)
 CejaCod_Prod3 = Entry(ventana, bg = 'white', fg = 'gray9', font = '10', border = '2').place(x = 20, y = 360, width = 80, height = 25)
 </pre>
+
 # Cajas de Cantridad
+
 <p> En estas cajas se almacenaran las cantidades de los productos<p>
 <pre>
 CejaCantidad1 = Entry(ventana, bg = 'white', fg = 'gray9', font = '10', border = '2').place(x = 290, y = 280, width = 80, height = 25)
