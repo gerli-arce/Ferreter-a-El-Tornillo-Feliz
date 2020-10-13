@@ -1,5 +1,5 @@
-# Ferreteria-El-Tornillo-Feliz
-Solución del Trabajo del Curso (Algoritmia para la programación del Software)
+# El Tornillo Feliz
+<p>olución del Trabajo del Curso (Algoritmia para la programación del Software)</P>
 
 # Importamos la libreria Tkinter
 
@@ -101,3 +101,7 @@ BotonImprimir = Button(ventana, text = 'Imprimir', bg = 'green2', fg = 'white', 
 ventana.mainloop()
 </pre>
 <h3>Ojo: Con esto solo tendremos la interfaz <b>grafica</b> si se desea hacer que cumpla funciones se deberá introducir mas código </h3> 
+
+
+
+
